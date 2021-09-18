@@ -26,6 +26,12 @@ body {
     box-sizing: inherit;
 }
 
+input {
+    background-color: transparent;
+    border: none; // 去掉输入框默认边框
+    outline: none; // 去掉输入框选中边框
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;

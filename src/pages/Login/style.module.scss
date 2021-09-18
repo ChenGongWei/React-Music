@@ -1,0 +1,73 @@
+.wrap {
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient( 0deg, #FD6585 10%, #0D25B9 100%);
+    overflow: hidden;
+}
+
+.icon {
+    margin: 200px auto;
+    text-align: center;
+
+    .title {
+        color: transparent;
+        font-size: 22px; /* no*/
+        font-weight: bold;
+        background-clip: text;
+        background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%);
+    }
+}
+
+.login_box {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    // border-radius: 10px;
+    // background-color: #f9f9f9;
+    // box-shadow: 0 0 10px 0 #fff;
+
+    .inp_box {
+        height: 80px;
+        text-align: left;
+        margin-top: 50px;
+        padding-left: 10px;
+        border-bottom: 1px solid #ccc;
+
+        .inp {
+            --color: #eee;
+            --font-size: 20px; /* no*/
+            --placeholder-color: #ccc;
+            line-height: 70px;
+            caret-color:#eee; // 光标颜色
+        }
+
+        .has_code {
+            display: inline-block;
+            width: calc(100% - 200px);
+        }
+
+        .send_code {
+            color: #eee;
+        }
+        
+    }
+
+    .btn {
+        width: 100%;
+        color: #eee;
+        font-size: 22px; /* no*/
+        border: 1px solid #eee;
+        padding: 15px 0;
+        margin: 100px auto 30px;
+        border-radius: 70px;
+    }
+
+    .change {
+        color: #ccc;
+        text-align: right;
+    }
+}

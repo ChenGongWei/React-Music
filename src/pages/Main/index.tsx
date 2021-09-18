@@ -1,10 +1,11 @@
 import React from 'react'
-import Loading from '@/components/Loading'
+import BaseLayout from '@/layout/BaseLayout'
 
 const PageNameFc: React.FC = () => {
     return(
         <>
-        <Loading/>
+        <BaseLayout/>
+        
         </>
     )
 }

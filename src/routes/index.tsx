@@ -6,8 +6,16 @@ const Routes: React.FC = () => {
         <BrowserRouter>
             <Switch>
                 <Route
+                    path="/login"
+                    component={React.lazy(() => import('@/pages/Login'))}
+                />
+                <Route
+                    path="/home"
+                    component={React.lazy(() => import('@/pages/Home'))}
+                />
+                <Route
                     path="/"
-                    component={React.lazy(() => import('@/pages/Main'))}
+                    component={React.lazy(() => import('@/pages/Home'))}
                 />
             </Switch>
         </BrowserRouter>

@@ -1,0 +1,380 @@
+{
+    "--font-thin": {
+        "prefix": "--font-thin",
+        "body": "var(--font-thin)",
+        "description": "200;",
+        "scope": "sass,scss,css"
+    },
+    "--font-light": {
+        "prefix": "--font-light",
+        "body": "var(--font-light)",
+        "description": "300;",
+        "scope": "sass,scss,css"
+    },
+    "--font-regular": {
+        "prefix": "--font-regular",
+        "body": "var(--font-regular)",
+        "description": "400;",
+        "scope": "sass,scss,css"
+    },
+    "--font-medium": {
+        "prefix": "--font-medium",
+        "body": "var(--font-medium)",
+        "description": "500;",
+        "scope": "sass,scss,css"
+    },
+    "--font-bold": {
+        "prefix": "--font-bold",
+        "body": "var(--font-bold)",
+        "description": "600;",
+        "scope": "sass,scss,css"
+    },
+    "--font-title": {
+        "prefix": "--font-title",
+        "body": "var(--font-title)",
+        "description": "700;",
+        "scope": "sass,scss,css"
+    },
+    "--color-primary": {
+        "prefix": "--color-primary",
+        "body": "var(--color-primary)",
+        "description": "#2C77F4;",
+        "scope": "sass,scss,css"
+    },
+    "#2C77F4--color-primary": {
+        "prefix": "#2C77F4",
+        "body": "var(--color-primary)",
+        "description": "#2C77F4;",
+        "scope": "sass,scss,css"
+    },
+    "--color-primary-rgb": {
+        "prefix": "--color-primary-rgb",
+        "body": "var(--color-primary-rgb)",
+        "description": "44, 119, 244;",
+        "scope": "sass,scss,css"
+    },
+    "--color-danger": {
+        "prefix": "--color-danger",
+        "body": "var(--color-danger)",
+        "description": "#EB4D5C;",
+        "scope": "sass,scss,css"
+    },
+    "#EB4D5C--color-danger": {
+        "prefix": "#EB4D5C",
+        "body": "var(--color-danger)",
+        "description": "#EB4D5C;",
+        "scope": "sass,scss,css"
+    },
+    "--color-red": {
+        "prefix": "--color-red",
+        "body": "var(--color-red)",
+        "description": "#F42135;",
+        "scope": "sass,scss,css"
+    },
+    "#F42135--color-red": {
+        "prefix": "#F42135",
+        "body": "var(--color-red)",
+        "description": "#F42135;",
+        "scope": "sass,scss,css"
+    },
+    "--color-red-rgb": {
+        "prefix": "--color-red-rgb",
+        "body": "var(--color-red-rgb)",
+        "description": "244, 33, 53;",
+        "scope": "sass,scss,css"
+    },
+    "--color-cyan": {
+        "prefix": "--color-cyan",
+        "body": "var(--color-cyan)",
+        "description": "#2DB6B5;",
+        "scope": "sass,scss,css"
+    },
+    "#2DB6B5--color-cyan": {
+        "prefix": "#2DB6B5",
+        "body": "var(--color-cyan)",
+        "description": "#2DB6B5;",
+        "scope": "sass,scss,css"
+    },
+    "--color-cyan-rgb": {
+        "prefix": "--color-cyan-rgb",
+        "body": "var(--color-cyan-rgb)",
+        "description": "21, 186, 137;",
+        "scope": "sass,scss,css"
+    },
+    "--color-cyan-2": {
+        "prefix": "--color-cyan-2",
+        "body": "var(--color-cyan-2)",
+        "description": "#15BA89;",
+        "scope": "sass,scss,css"
+    },
+    "#15BA89--color-cyan-2": {
+        "prefix": "#15BA89",
+        "body": "var(--color-cyan-2)",
+        "description": "#15BA89;",
+        "scope": "sass,scss,css"
+    },
+    "--color-cyan-2-rgb": {
+        "prefix": "--color-cyan-2-rgb",
+        "body": "var(--color-cyan-2-rgb)",
+        "description": "21, 186, 137;",
+        "scope": "sass,scss,css"
+    },
+    "--color-orange": {
+        "prefix": "--color-orange",
+        "body": "var(--color-orange)",
+        "description": "#FE7C04;",
+        "scope": "sass,scss,css"
+    },
+    "#FE7C04--color-orange": {
+        "prefix": "#FE7C04",
+        "body": "var(--color-orange)",
+        "description": "#FE7C04;",
+        "scope": "sass,scss,css"
+    },
+    "--color-orange-rgb": {
+        "prefix": "--color-orange-rgb",
+        "body": "var(--color-orange-rgb)",
+        "description": "254, 124, 4;",
+        "scope": "sass,scss,css"
+    },
+    "--color-purple": {
+        "prefix": "--color-purple",
+        "body": "var(--color-purple)",
+        "description": "#945FD4;",
+        "scope": "sass,scss,css"
+    },
+    "#945FD4--color-purple": {
+        "prefix": "#945FD4",
+        "body": "var(--color-purple)",
+        "description": "#945FD4;",
+        "scope": "sass,scss,css"
+    },
+    "--color-purple-rgb": {
+        "prefix": "--color-purple-rgb",
+        "body": "var(--color-purple-rgb)",
+        "description": "148, 95, 212;",
+        "scope": "sass,scss,css"
+    },
+    "--color-bg-primary": {
+        "prefix": "--color-bg-primary",
+        "body": "var(--color-bg-primary)",
+        "description": "#F4F4F6;",
+        "scope": "sass,scss,css"
+    },
+    "#F4F4F6--color-bg-primary": {
+        "prefix": "#F4F4F6",
+        "body": "var(--color-bg-primary)",
+        "description": "#F4F4F6;",
+        "scope": "sass,scss,css"
+    },
+    "--color-bg-gray": {
+        "prefix": "--color-bg-gray",
+        "body": "var(--color-bg-gray)",
+        "description": "#FAFAFA;",
+        "scope": "sass,scss,css"
+    },
+    "#FAFAFA--color-bg-gray": {
+        "prefix": "#FAFAFA",
+        "body": "var(--color-bg-gray)",
+        "description": "#FAFAFA;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-primary": {
+        "prefix": "--color-text-primary",
+        "body": "var(--color-text-primary)",
+        "description": "#262626;",
+        "scope": "sass,scss,css"
+    },
+    "#262626--color-text-primary": {
+        "prefix": "#262626",
+        "body": "var(--color-text-primary)",
+        "description": "#262626;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-primary-rgb": {
+        "prefix": "--color-text-primary-rgb",
+        "body": "var(--color-text-primary-rgb)",
+        "description": "38, 38, 38;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-secondary": {
+        "prefix": "--color-text-secondary",
+        "body": "var(--color-text-secondary)",
+        "description": "#525252;",
+        "scope": "sass,scss,css"
+    },
+    "#525252--color-text-secondary": {
+        "prefix": "#525252",
+        "body": "var(--color-text-secondary)",
+        "description": "#525252;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-secondary-rgb": {
+        "prefix": "--color-text-secondary-rgb",
+        "body": "var(--color-text-secondary-rgb)",
+        "description": "82, 82, 82;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-accessorial": {
+        "prefix": "--color-text-accessorial",
+        "body": "var(--color-text-accessorial)",
+        "description": "#8C8C8C;",
+        "scope": "sass,scss,css"
+    },
+    "#8C8C8C--color-text-accessorial": {
+        "prefix": "#8C8C8C",
+        "body": "var(--color-text-accessorial)",
+        "description": "#8C8C8C;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-white": {
+        "prefix": "--color-text-white",
+        "body": "var(--color-text-white)",
+        "description": "#FFFFFF;",
+        "scope": "sass,scss,css"
+    },
+    "#FFFFFF--color-text-white": {
+        "prefix": "#FFFFFF",
+        "body": "var(--color-text-white)",
+        "description": "#FFFFFF;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-white2": {
+        "prefix": "--color-text-white2",
+        "body": "var(--color-text-white2)",
+        "description": "#FEFFFE;",
+        "scope": "sass,scss,css"
+    },
+    "#FEFFFE--color-text-white2": {
+        "prefix": "#FEFFFE",
+        "body": "var(--color-text-white2)",
+        "description": "#FEFFFE;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-placeholder": {
+        "prefix": "--color-text-placeholder",
+        "body": "var(--color-text-placeholder)",
+        "description": "#BBBBBB;",
+        "scope": "sass,scss,css"
+    },
+    "#BBBBBB--color-text-placeholder": {
+        "prefix": "#BBBBBB",
+        "body": "var(--color-text-placeholder)",
+        "description": "#BBBBBB;",
+        "scope": "sass,scss,css"
+    },
+    "--color-text-placeholder2": {
+        "prefix": "--color-text-placeholder2",
+        "body": "var(--color-text-placeholder2)",
+        "description": "#A6A6A6;",
+        "scope": "sass,scss,css"
+    },
+    "#A6A6A6--color-text-placeholder2": {
+        "prefix": "#A6A6A6",
+        "body": "var(--color-text-placeholder2)",
+        "description": "#A6A6A6;",
+        "scope": "sass,scss,css"
+    },
+    "--color-tag-bg": {
+        "prefix": "--color-tag-bg",
+        "body": "var(--color-tag-bg)",
+        "description": "#404040;",
+        "scope": "sass,scss,css"
+    },
+    "#404040--color-tag-bg": {
+        "prefix": "#404040",
+        "body": "var(--color-tag-bg)",
+        "description": "#404040;",
+        "scope": "sass,scss,css"
+    },
+    "--color-tag-bg-rgb": {
+        "prefix": "--color-tag-bg-rgb",
+        "body": "var(--color-tag-bg-rgb)",
+        "description": "64, 64, 64;",
+        "scope": "sass,scss,css"
+    },
+    "--color-gradient-red": {
+        "prefix": "--color-gradient-red",
+        "body": "var(--color-gradient-red)",
+        "description": "linear-gradient(316.14deg,#FF8268 0%,#FD2840 100%);",
+        "scope": "sass,scss,css"
+    },
+    "#FF8268--color-gradient-red": {
+        "prefix": "#FF8268",
+        "body": "var(--color-gradient-red)",
+        "description": "linear-gradient(316.14deg,#FF8268 0%,#FD2840 100%);",
+        "scope": "sass,scss,css"
+    },
+    "--color-line": {
+        "prefix": "--color-line",
+        "body": "var(--color-line)",
+        "description": "#E8E8E8;",
+        "scope": "sass,scss,css"
+    },
+    "#E8E8E8--color-line": {
+        "prefix": "#E8E8E8",
+        "body": "var(--color-line)",
+        "description": "#E8E8E8;",
+        "scope": "sass,scss,css"
+    },
+    "--color-white": {
+        "prefix": "--color-white",
+        "body": "var(--color-white)",
+        "description": "#FFFFFF;",
+        "scope": "sass,scss,css"
+    },
+    "#FFFFFF--color-white": {
+        "prefix": "#FFFFFF",
+        "body": "var(--color-white)",
+        "description": "#FFFFFF;",
+        "scope": "sass,scss,css"
+    },
+    "--color-divider": {
+        "prefix": "--color-divider",
+        "body": "var(--color-divider)",
+        "description": "#F5F5F5;",
+        "scope": "sass,scss,css"
+    },
+    "#F5F5F5--color-divider": {
+        "prefix": "#F5F5F5",
+        "body": "var(--color-divider)",
+        "description": "#F5F5F5;",
+        "scope": "sass,scss,css"
+    },
+    "--color-divider2": {
+        "prefix": "--color-divider2",
+        "body": "var(--color-divider2)",
+        "description": "#E8E8E8;",
+        "scope": "sass,scss,css"
+    },
+    "#E8E8E8--color-divider2": {
+        "prefix": "#E8E8E8",
+        "body": "var(--color-divider2)",
+        "description": "#E8E8E8;",
+        "scope": "sass,scss,css"
+    },
+    "--color-list-divider": {
+        "prefix": "--color-list-divider",
+        "body": "var(--color-list-divider)",
+        "description": "#F0F0F0;",
+        "scope": "sass,scss,css"
+    },
+    "#F0F0F0--color-list-divider": {
+        "prefix": "#F0F0F0",
+        "body": "var(--color-list-divider)",
+        "description": "#F0F0F0;",
+        "scope": "sass,scss,css"
+    },
+    "--bottom-action-bar-height": {
+        "prefix": "--bottom-action-bar-height",
+        "body": "var(--bottom-action-bar-height)",
+        "description": "72px;",
+        "scope": "sass,scss,css"
+    },
+    "--search-bar-height": {
+        "prefix": "--search-bar-height",
+        "body": "var(--search-bar-height)",
+        "description": "44px;",
+        "scope": "sass,scss,css"
+    }
+}

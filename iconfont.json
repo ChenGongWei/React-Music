@@ -1,0 +1,6 @@
+{
+    "symbol_url": "https://at.alicdn.com/t/font_2298438_gt1j8a8r66.js?spm=a313x.7781069.1998910419.81&file=font_2298438_006mifoaoskpb.js",
+    "svg_dir": "./src/assets/svg",
+    "save_dir": "./src/components/IconFont",
+    "trim_icon_prefix": "icon"
+}
